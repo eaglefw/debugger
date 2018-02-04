@@ -13,7 +13,7 @@ use MilanKyncl\Debugbar\PhalconDebugbar;
 
 class Debug extends PhalconDebug {
 
-	// public $_uri = 'https://eaglefw.github.io/debugger/static/';
+	public $_uri = 'https://eaglefw.github.io/debugger/static/';
 
 
 	public function __construct($mode = self::OFF) {
